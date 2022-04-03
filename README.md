@@ -39,5 +39,6 @@ If you have any feedback, please join my <a href="https://dsc.gg/pazdikan"><img 
 
 This project is used by the following servers:
 - Your server here.
+
 In order to add your server here, contact us on Discord (in tickets).\
 **Remember:** If you make changes in the code on your own and use it in your server, the code must be public! If you want a custom plugin for your server, hit me up on my Discord server.
