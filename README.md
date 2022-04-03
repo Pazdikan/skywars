@@ -41,4 +41,5 @@ This project is used by the following servers:
 - Your server here.
 
 In order to add your server here, contact us on Discord (in tickets).\
-**Remember:** If you make changes in the code on your own and use it in your server, the code must be public! If you want a custom plugin for your server, hit me up on my Discord server.
+**Remember:** If you make changes in the code on your own and use it in your server, the code must be public! [Read more](https://github.com/Pazdikan/skywars/blob/master/LICENSE.md)\
+If you want a custom plugin for your server, hit me up on Discord.
