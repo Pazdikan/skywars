@@ -1,7 +1,11 @@
 
 # !!! WORK IN PROGRESS !!!
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/59962566/161556635-d9b94681-7038-4a66-8964-af2b0ad1bd67.png" alt="Logo"></img>
+</p>
+
 <p align="center">
 <a href="https://github.com/pazdikan/skywars"><img alt="GitHub license" src="https://img.shields.io/github/license/pazdikan/skywars"></a>
 <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/pazdikan/skywars/total">
