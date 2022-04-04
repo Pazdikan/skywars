@@ -1,0 +1,4 @@
+name: Skywars
+version: '${project.version}'
+main: party.pazdikan.skywars.Skywars
+load: STARTUP
