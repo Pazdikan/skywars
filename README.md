@@ -1,8 +1,5 @@
-
-# !!! WORK IN PROGRESS !!!
-
-
 <p align="center">
+  <b>Rewrite progress:</b> ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀ 0%
   <img src="https://user-images.githubusercontent.com/59962566/161556635-d9b94681-7038-4a66-8964-af2b0ad1bd67.png" alt="Logo"></img>
 </p>
 
