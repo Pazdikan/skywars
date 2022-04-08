@@ -82,9 +82,16 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.tchristofferson</groupId>
-            <artifactId>ConfigUpdater</artifactId>
-            <version>2.0-SNAPSHOT</version>
+            <groupId>com.jonahseguin</groupId>
+            <artifactId>drink</artifactId>
+            <version>1.0.3</version>
+            <type>jar</type>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>dev.dejvokep</groupId>
+            <artifactId>boosted-yaml</artifactId>
+            <version>1.1</version>
         </dependency>
     </dependencies>
 </project>

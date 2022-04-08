@@ -111,3 +111,6 @@ buildNumber.properties
 
 # Common working directory
 run/
+
+
+src/main/java/party/pazdikan/skywars/commands/Test.java

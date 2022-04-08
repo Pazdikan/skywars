@@ -1,12 +1,9 @@
 package party.pazdikan.skywars;
 
-import com.tchristofferson.configupdater.ConfigUpdater;
+import com.jonahseguin.drink.CommandService;
+import com.jonahseguin.drink.Drink;
 import org.bukkit.plugin.java.JavaPlugin;
-
-import java.io.File;
-import java.io.IOException;
-import java.util.Arrays;
-import java.util.Collections;
+import party.pazdikan.skywars.commands.Test;
 
 public final class Skywars extends JavaPlugin {
     private static Skywars instance;
@@ -19,17 +16,12 @@ public final class Skywars extends JavaPlugin {
     public void onEnable() {
         instance = this;
 
-        // Updates config.yml with new values while keeping ones that already exists.
-        saveDefaultConfig();
-        File configFile = new File(getDataFolder(), "config.yml");
+        // Register commands
+        CommandService drink = Drink.get(this);
+        drink.register(new Test(), "test");
+        drink.registerCommands();
 
-        try {
-            ConfigUpdater.update(this, "config.yml", configFile, Collections.emptyList());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        reloadConfig();
+        // Config stuff
     }
 
     @Override

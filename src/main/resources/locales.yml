@@ -1,0 +1,4 @@
+file-version: 1
+
+en-us:
+  ARENA_RESETTING_PLAYER_LEFT: "&cYou should not be here! Teleporting you back to the lobby..."
