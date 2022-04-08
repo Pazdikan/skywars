@@ -33,7 +33,7 @@ public class LocalMap implements Map {
 
         this.activeWorldFolder = new File(
                 Bukkit.getWorldContainer().getParentFile(),
-                sourceWorldFolder.getName() + "_active_" + System.currentTimeMillis()
+                sourceWorldFolder.getName() + "_skywars_" + System.currentTimeMillis()
         );
 
         try {
@@ -61,7 +61,7 @@ public class LocalMap implements Map {
 
     public boolean restoreFromSource() {
         for (Player player : this.getWorld().getPlayers()) {
-//            PlayerUtil.sendMessage(player, Skywars.getLo().getLocale(player, "ARENA_RESETTING_PLAYER_LEFT"), false);
+            PlayerUtil.sendMessage(player, Skywars.getLocaleConfig().getLocale(player, "ARENA_RESETTING_PLAYER_LEFT"), false);
         }
 
         unload();
