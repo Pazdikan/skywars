@@ -7,12 +7,16 @@ import org.bukkit.potion.PotionEffect;
 import party.pazdikan.skywars.Skywars;
 import party.pazdikan.skywars.event.PlayerJoinArenaEvent;
 import party.pazdikan.skywars.event.PlayerLeaveArenaEvent;
+import party.pazdikan.skywars.map.LocalMap;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.UUID;
 
 public class ArenaManager {
     ArrayList<Arena> arenas;
+
+    File gameMapsFolder = new File(Skywars.getInstance().getDataFolder(), "maps");
 
     public ArenaManager() {
         this.arenas = new ArrayList<Arena>();
@@ -39,6 +43,15 @@ public class ArenaManager {
             }
         }
         return null;
+    }
+
+    public void createArena(String worldName) {
+        addArena(
+                new Arena(
+                        new LocalMap(gameMapsFolder, worldName, true),
+                        1, 16
+                )
+        );
     }
 
     /**

@@ -47,10 +47,12 @@ public class LocaleConfig {
             locale = plugin.getConfig().getString("DEFAULT_LOCALE");
         } else {
             // TODO: Getting player's locale from database
-            locale = plugin.getConfig().getString("DEFAULT_LOCALE");
         }
 
-        return plugin.getConfig().getString(locale + "." + key);
+        if (plugin.getConfig().getString(locale + "." + key) != null)
+            return plugin.getConfig().getString(locale + "." + key);
+        else
+            return key;
     }
 
     public String[] getLocales() {
